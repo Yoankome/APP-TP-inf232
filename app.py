@@ -893,7 +893,7 @@ def show_dashboard() -> None:
         - Total répondants: **{len(df_filtered)}**
         - Âge moyen: **{df_filtered['age'].mean():.1f}** ans
         - Heures d'étude moyennes: **{df_filtered['heures_etude'].mean():.1f}** h/jour
-        - Satisfaction moyenne: **{df_filtered['satisfaction'].mean():.1f}}/5**
+        - Satisfaction moyenne: **{df_filtered['satisfaction'].mean():.1f}/5**
         - Filieres représentées: **{df_filtered['filiere'].nunique()}**
         """)
 
